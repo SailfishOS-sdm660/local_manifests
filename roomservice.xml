@@ -8,5 +8,7 @@
   <project name="droid-config-X00TD" path="hybris/droid-configs" revision="master" remote="hybris" />
   <project name="droid-hal-version-X00TD" path="hybris/droid-hal-version-X00TD" revision="master" remote="hybris" />
   <project name="mer-hybris/libhybris" path="external/libhybris" revision="master" />
+  <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+  <project name="SailfishOS-sdm660/SailfishOS_hybris-boot" path="hybris/hybris-boot" revision="hybris-16.0" />
 
 </manifest>
