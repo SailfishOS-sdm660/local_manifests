@@ -10,7 +10,7 @@
   <project name="mer-hybris/libhybris" path="external/libhybris" revision="master" />
   <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
   <project name="SailfishOS-sdm660/SailfishOS_hybris-boot" path="hybris/hybris-boot" revision="hybris-16.0" />
-  <project path="hybris/mw/libhybris" name="libhybris/libhybris" revision="master" />
+  <!-- project path="hybris/mw/libhybris" name="libhybris/libhybris" revision="master" />  -->
   <remove-project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" />
   <project path="hybris/mer-kernel-check" name="Linux-On-Sdm6Series/mer-kernel-check" revision="hybris-16.0-kernel-4.4" />
   
