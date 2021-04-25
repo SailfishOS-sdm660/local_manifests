@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/SailfishOS-sdm660" name="hybris" />
-  <project clone-depth="1" name="vendor_asus_X00TD" path="vendor/asus/X00TD" revision="hybris-16.0" remote="hybris" />
-  <project clone-depth="1" name="device_asus_X00TD" path="device/asus/X00TD" revision="hybris-16.0" remote="hybris" />
-  <project clone-depth="1" name="kernel_asus_sdm660" path="kernel/asus/sdm660" revision="hybris-16.0" remote="hybris" />
+  <project clone-depth="1" name="vendor_asus_X00TD" path="vendor/asus" revision="hybris-17.1" remote="hybris" />
+  <project clone-depth="1" name="device_asus_X00TD" path="device/asus/X00TD" revision="hybris-17.1" remote="hybris" />
+  <project clone-depth="1" name="kernel_asus_sdm660" path="kernel/asus/sdm660" revision="hybris-17.1" remote="hybris" />
   <project name="droid-hal-X00TD" path="rpm/" revision="master" remote="hybris" />
   <project name="droid-config-X00TD" path="hybris/droid-configs" revision="master" remote="hybris" />
   <project name="droid-hal-version-X00TD" path="hybris/droid-hal-version-X00TD" revision="master" remote="hybris" />
@@ -11,7 +11,6 @@
   <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
   <project name="SailfishOS-sdm660/SailfishOS_hybris-boot" path="hybris/hybris-boot" revision="hybris-16.0" />
   <!-- project path="hybris/mw/libhybris" name="libhybris/libhybris" revision="master" />  -->
-  <remove-project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" />
+<remove-project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" />
   <project path="hybris/mer-kernel-check" name="Linux-On-Sdm6Series/mer-kernel-check" revision="hybris-16.0-kernel-4.4" />
-  
 </manifest>
