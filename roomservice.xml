@@ -12,4 +12,5 @@
   <project name="SailfishOS-sdm660/SailfishOS_hybris-boot" path="hybris/hybris-boot" revision="hybris-16.0" />
   <remove-project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" />
   <project name="Linux-On-Sdm6Series/mer-kernel-check" path="hybris/mer-kernel-check" revision="hybris-16.0-kernel-4.4" />
+  <project name="hybris-installer" path="hybris/hybris-installer" remote="hybris" revision="master" />
 </manifest>
